@@ -7,4 +7,4 @@ docker run -d \
   --volume="/proc:/hostfs/proc:ro" \
   --volume="/:/hostfs:ro" \
   docker.elastic.co/beats/metricbeat:7.1.0 metricbeat -e \
-  -E output.elasticsearch.hosts=["10.61.1.196:9200"]  
+  -E output.elasticsearch.hosts=["$1:9200"]

@@ -26,7 +26,7 @@ filebeat.config.modules:
 # setup filebeat to send output to logstash
 output.logstash:
   hosts:
-    - cph-office.ods-track.com
+    - ${logstash_host}
 
 # Write Filebeat own logs only to file to avoid catching them with itself in docker log files
 logging.level: error
