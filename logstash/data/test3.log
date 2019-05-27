@@ -1,0 +1,4 @@
+{"log":"2019-05-27 12:11:31,094 - INFO - simulation_worker.py - docker_worker - Starting at HPC\n","stream":"stderr","time":"2019-05-27T12:11:31.096529973Z"}
+{"log":"2019-05-27 12:11:31,103 - INFO - simulation_worker.py - hpc_worker - Downloads project with ID: 5cebbe62d2e52a00018e0b0b\n","stream":"stderr","time":"2019-05-27T12:11:31.104446177Z"}
+{"log":"2019-05-27 12:11:39,949 - INFO - simulation_worker.py - submit_job - Submitted job 5cebbe62d2e52a00018e0b0b\n","stream":"stderr","time":"2019-05-27T12:11:39.950177993Z"}
+{"log":"2019-05-27 12:31:51,790 - INFO - simulation_worker.py - submit_job - Submitted job 5cebbe62d2e52a00018e0b0b\n","stream":"stderr","time":"2019-05-27T12:31:51.790662015Z"}

@@ -7,8 +7,6 @@ services:
     volumes:
       - ../logstash/test:/usr/share/logstash/pipeline/
       - ../logstash/data:/usr/tmp
-    environment:
-      LOG_LEVEL: error
     depends_on:
       - elasticsearch
 
